@@ -1,4 +1,4 @@
-# 一个 Dapp 低代码开发平台
+# dddappp：一个领域驱动的去中心化应用低代码开发平台
 
 [English](README.md) | 中文
 

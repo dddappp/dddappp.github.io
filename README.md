@@ -1,4 +1,4 @@
-# A Dapp Low-Code Development Platform
+# dddappp: A Domain-Driven DAPP low-code development Platform
 
 English | [中文](README_CN.md)
 
@@ -127,7 +127,7 @@ DDDML takes this big solid step forward. You will see this in what follows.
 
 Because, "using DDD-style domain models to drive development" is really the thing we've done in the Web 2.0 era!
 
-![E-R Model/Retiaonl Model Driven Vs. Domain Model Driven](ERDrivenVsDDDModelDriven.png)
+![E-R Model/Relational Model Driven Vs. Domain Model Driven](ERDrivenVsDDDModelDriven.png)
 
 Even when implementing a low-code platform for developing traditional enterprise applications, using DDD-style domain models to drive development is a very bold and innovative move. But the path is through, we have had a lot of valuable experience accumulated. We even published a thick monograph to share the lessons learned with developers.
 
