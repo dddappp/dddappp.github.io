@@ -4,45 +4,59 @@ English | [中文](README_CN.md)
 
 [ToC]
 
-## What we want to do
+## Our vision
 
-A **true** Low-code development platform(LCDP) that allows developers to build extremely complex decentralized applications(Dapps) efficiently with experiences that are very close to developing "traditional" applications.
+Our goal is to create a **true** low-code development platform (LCDP) that allows developers to easily build highly complex decentralized applications (Dapps).
 
-A low-code development platform that helps developers build decentralized applications that maximize the use of blockchains as technical infrastructure.
+We believe that blockchain is a revolutionary technical infrastructure that can support innovative decentralized applications. We hope that through our low-code development platform, developers can fully leverage the advantages of blockchain without worrying about the underlying technical details.
 
-We know things can't be done overnight. In the initial phase, the platform will prioritize support for building Dapps running on Move public blockchains.
-
-In the longer term, the platform does not restrict developers to use any programming language to build Dapps, allowing them to focus on the implementation of the "business logic". Thus, developers of "traditional" applications can more easily enjoy the dividends of blockchain development; while "traditional" enterprise software and Web 2.0 Internet applications, which are already highly complex, can be migrated onto blockchains at low cost and become decentralized Web 3.0 applications.
+Our platform adapts to both current needs and future possibilities. Developers are not limited by any specific programming language or blockchain platform, they only need to focus on implementing the "business logic". In this way, whether it is complex "traditional" enterprise software or Web2 internet applications, they can easily transform into decentralized Web3 applications.
 
 ### What is a "true" low-code development platform
 
-"What is this 'true' low-code development platform you speak of?"
+In fact, there is already a relatively unified evaluation standard for what is a low-code development platform in the industry.
 
-Here we think it is necessary to clarify the difference between "low-code" and "no-code". No-code refers more to a category of "end-user" oriented tools through which users can quickly assemble certain applications; for example, some Internet form tools, website building tools, etc. The low-code platform, on the other hand, we think is for professional developers.
+If you think that "low-code" means "the less human-written code, the better, preferably no code at all", or if you think that "the best low-code platform is a no-code platform", then you are very wrong.
 
-We believe that a true low-code development platform should have the following key features.
+Here we need to clarify a common misconception, which is the confusion between "low-code" and "no-code".
 
-* **Model driven** development. These models should ideally be "domain models" that are as far from "technology" and as close to "business" as possible. Because "communication" is the biggest cost in complex software development - even if the low-code platform is for developers and the "no-code" is for end users(business people).
+* "No-code" refers to a large category (without a unified standard) of tools for "end users" (i.e., non-technical people). They allow users to create some simple applications by dragging, selecting, filling in blanks and other simple operations, such as product advertising pages, online surveys, personal blogs, etc.
 
-* **Visual Development**. Visual modeling tools are an important part of the visual development toolbox for low-code platforms. However, it should be noted that if the modeling tool can save the model as a well-readable plain text, then the specification of this text is actually a DSL(domain-specific language), and such a DSL can actually be written manually by the developer(without the help of a visual modeling tool).
+* "Low-code" development platforms are tools that provide services for professional developers. They allow developers to use model-driven, visual interfaces, predefined components, automated processes and other features to build more complex and powerful applications.
 
-* Support the use of **expression languages**. An expression language should be simpler and easier to write business logic in than the general-purpose language(GPL). It should be functional programming style; it should be as declarative as possible - that is, for expressing "what is wanted" rather than "how it is done".
+We believe (and it is also widely recognized in the industry) that a true low-code development platform should have the following key features:
 
-* **Systematic software engineering support**. The low-code platform should integrate best practices in the areas of software engineering including development, debug, testing, version control, DevOps, etc.
+* **Model driven** development. This means that developers can use a "domain model" that is closer to "business" rather than "technology" to describe the application they want to build. This can greatly reduce communication costs and understanding difficulties, and improve collaboration efficiency.
 
-* **Applications are open to integration and are extensible**. Applications developed by low-code platforms should have open APIs as well as the ability to use external APIs and be extensible using general-purpose languages.
+* **Visual Development**. This means that developers can use some visual modeling tools to create and modify domain models without writing complex code. If necessary, they can also directly edit the plain text files corresponding to the domain models, which means that these files need to follow a DSL (domain-specific language) specification.
 
-In our opinion, a "true" low-code platform has yet to be born in the decentralized world. It is all up to us to deliver.
+* Support the use of **expression languages**. This means that developers can use an expression language that is simpler and easier to write business logic than general-purpose programming languages. This language should be functional and declarative, i.e., only expressing "what is wanted" rather than "how it is done".
 
-## Value proposition to the Move blockchain ecosystem
+* **Systematic software engineering support**. This means that the low-code development platform should integrate best practices in software engineering areas such as development, debugging, testing, version control, DevOps, etc., so that developers can focus more on the functionality and quality of the application without worrying about technical details and operational issues.
 
-We love the revolutionary innovation of "resource-oriented programming" in the Move language. We believe that the combinability of resources can greatly accelerate the pace of innovation in the Move ecosystem, making it more likely that killer applications will emerge that have never been seen on other public blockchains.
+* **Open integration and extensibility**. This means that the low-code development platform should provide open APIs so that developers can use external services and data, as well as allow external applications and systems to use the applications built by the low-code development platform. At the same time, the low-code development platform should also allow developers to use general-purpose programming languages for extension to meet some special needs.
 
-But nevertheless, the overall development efficiency of a slightly complex Dapp today, even if the on-chain part(smart contracts) uses the Move language, is hardly satisfactory.
+We believe that such a "true" low-code development platform has not yet appeared in the decentralized world. We have the confidence and ability to create it.
 
-On the other hand, the value of low-code development platforms for developing "traditional" applications has been well proven and widely recognized. Many developers of "traditional" applications have already established deep insights into various domains and have no lack of software development experiences, and they are eager to utilize their talent and intelligence in the decentralized world as soon as possible.
+## Our value
 
-In particular, we would like to highlight the enormous imagination that can be raised by the combination of low-code platforms and DAOs. DAOs, as "legal persons" existing in the blockchain world, are bound to require more "business activities" to be on-chain. The growth of DAOs will amplify the demands for blockchain "business applications". There is an urgent need to reduce the development cost of decentralized versions of "business applications" and improve development efficiency. Traditional low-code platforms are already particularly well suited for rapid development of traditional "enterprise applications", and we believe this will be the case in the Web3 era.
+We firmly believe that low-code development platforms are the future trend of blockchain application development. They can enable developers to quickly and easily build high-quality Dapps without worrying about the underlying technical details. They can also attract more "traditional" application developers to enter the blockchain field, using their knowledge and experience accumulated in various industries and domains, to create more valuable and meaningful Dapps.
+
+In the initial stage, our low-code development platform will support Dapp development based on various Move platforms.
+
+### Why we start with Move language
+
+We love blockchain technology, especially the revolutionary innovation of "resource-oriented programming" in the Move language. We believe that the combinability of resources can greatly accelerate the innovation in the Move ecosystem, and thus foster some killer applications that are hard to achieve on other blockchains.
+
+But we also realize that there are still many challenges and pain points in blockchain application development. Even with the Move language, developing a slightly complex Dapp still requires a lot of time and effort, as well as mastering different technology stacks and tools. That's why we want to create a low-code development platform that makes Move application development simpler and more efficient.
+
+### Provide support for DAOs
+
+We especially want to emphasize the huge imagination space that can be raised by the combination of low-code platforms and DAOs (decentralized autonomous organizations). DAOs are "legal persons" that exist in the blockchain world, which can achieve some efficiency and transparency that traditional organizations can hardly reach. Obviously, DAOs need more "business activities" to be on-chain, which requires more support from blockchain "business software". Low-code development platforms can enable DAO creators and participants to easily build Dapps that meet their needs and visions, and also allow them to modify and optimize them at any time.
+
+Traditional low-code development platforms have already proven their advantages in rapid development of traditional "enterprise applications", and we believe this will be the case in the Web3 era.
+
+---
 
 ## Current state of low-code development platforms
 
