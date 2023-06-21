@@ -56,47 +56,47 @@ We especially want to emphasize the huge imagination space that can be raised by
 
 Traditional low-code development platforms have already proven their advantages in rapid development of traditional "enterprise applications", and we believe this will be the case in the Web3 era.
 
----
+## Current state of Web3 low-code development
 
-## Current state of low-code development platforms
-
-When we look at traditional low-code development platforms for enterprise applications in the Web 2.0 era according to the above criteria for "true" low-code, there are relative leaders.
+If we measure the traditional low-code development platforms for enterprise applications in the Web 2.0 era according to the above criteria for "true" low-code, we can see some relatively outstanding leaders, such as OutSystems, Mendix, Salesforce, etc.
 
 ![Magic Quadrant for Traditional LCDPs](TraditionalLCDPsMagicQuadrant.png)
 
-So, by the time of Web 3.0, the existing Dapp low-code platforms(if they exist at all), are there any very capable ones?
+Then, in the Web 3.0 era, are there any equally excellent Dapp low-code development platforms?
 
-Unfortunately, by the rigorous "true" low-code criteria described above, we have not yet seen the existence of such a Dapp low-code platform.
+Unfortunately, according to the strict "true" low-code standards mentioned above, we have not yet seen the emergence of such a Dapp low-code development platform...
 
-"Is it so hard? Why don't they do it?"
+> Why is it so hard? Why can't they do it?
 
-### The “model-driven” of enterprise application LCDPs
+### The "model-driven" of enterprise application low-code platforms
 
-Traditional enterprise application development platforms(including low-code platforms) are basically "driven" by the E-R(Entity-Relationship) models and/or relational models(the models used in SQL databases).
+Traditional enterprise software development platforms (including low-code platforms) basically use ER (entity-relationship) models and/or relational models (the models used by SQL databases) to "drive" development.
 
 For example, see how OutSystems does it?
 
 !["Model Driven" Of OutSystems](ModelDrivenOfOutSystems.png)
 
-OutSystems uses both E-R models and relational(data) models; some enterprise application development platforms use only one or the other.
+OutSystems uses both ER models and relational (data) models (some enterprise software development platforms only use one of them).
 
-There is a fairly direct correspondence between the concepts used by the E-R models and the relational models, so their modeling results(the generated codes) can easily run on the traditional enterprise software technology infrastructures - SQL databases. But it's hard for them to run on brand new technology infrastructures such as blockchains - where the dominant smart contract platforms and "decentralized ledgers" are constructed too far from traditional SQL databases.
+There is a fairly direct correspondence between the concepts used by the ER models and the relational models, so their modeling results (the generated codes) can easily run on the traditional enterprise software technology infrastructures - SQL databases. But they are difficult to run on new technology infrastructures such as blockchains - where the mainstream smart contract platforms and "decentralized ledgers" are constructed too far from traditional SQL databases.
 
-Clearly, the development of a "true" low-code platform requires long-term accumulation of skills and experience, and the technology routes used in traditional enterprise application low-code platforms make them difficult to be ported to the entirely new space of Dapp development.
+Obviously, developing a "true" low-code platform requires long-term accumulation of technology and experience, and the technology routes used by traditional enterprise application low-code platforms make it difficult for them to be ported to the new field of Dapp development.
 
-As for the existing Dapp "low-code" platforms, "They don't have those features, but then what does it matter?"
+As for the existing Dapp "low-code" platforms, you might ask: "They don't have those features, but what does it matter?"
 
 ### The importance of core values
 
-The development of a true low-code - especially adhering to model-driven - is a hard way to go. The problem with existing Dapp “low-code” platforms is that they always try to take shortcuts.
+Developing a true low-code platform - especially adhering to "model-driven" - is undoubtedly a difficult path. In our view, the reason why existing Dapp "low-code" platforms are not very successful is because they always try to take shortcuts.
 
 > Never forget the original intention, the only way to get to the end.
 
-A platform's potential is determined by its "core values". The core features expected of a professional low-code platform, such as model-driven, expression language, have values that are difficult to replace with other solutions that try to "bypass" them.
+We believe that the potential of a platform is determined by its "core". The core features that a professional low-code platform should have, such as model-driven, expression language, have values that are difficult to replace by other solutions that try to "bypass" them.
 
-For example, "configurable smart contract templates" certainly have the value of improving the efficiency of developers copying, pasting, and modifying "readymade codes" - if indeed there are "readymade codes". If a developer wants to make some innovative applications and there are no readymade "smart contract templates" available, then it won't be helpful; when multiple chains need to be supported, it is also a big burden for platform developers to write and maintain such a library of "smart contract templates" in different languages(Solidity, Move, etc.) for different chains. Moreover, "smart contracts" are often only the on-chain part of an application, and decentralized applications often require off-chain parts as well.
+For example, "configurable smart contract templates" certainly have their value, which is to improve the efficiency of developers copying, pasting, and modifying "ready-made codes" - provided that there are indeed "ready-made codes". If developers want to make some innovative applications and there are no ready-made "smart contract templates" available, then they won't be able to help developers; when they need to support "multi-chains", it is also a big burden for platform developers to write and maintain such a library of "smart contract templates" in different languages (Solidity, Move, etc.) for different chains. "Smart contracts" are often only the on-chain part of an application, and decentralized applications often also require off-chain service development.
 
-There is also the "expression language", and although it may be difficult to implement this feature perfectly(the implementation priority can be lower) - for example, it requires developing compilers to compile the codes written in this expression language into instructions that can be executed by the virtual machines(EVM, MoveVM, etc.) of each chain - with it, developers can use only this "expression language" to write business logic, and the developed application can run directly on different chains. There is no need to learn and use each chain's programming language, which greatly saves the cost of application development and porting.
+There is also the "expression language", although it may be complex to implement this feature perfectly (even if our platform wants to implement it, the priority can be relatively low) - we need to develop compilers that compile the code written in this expression language into instructions that can be executed by the virtual machines (EVM, MoveVM, etc.) of each chain - but with it, developers can only use this "expression language" to write business logic, and the developed application can run directly on different chains. There is no need to learn and use each chain's development language, which greatly saves the cost of application development and porting.
+
+---
 
 ## Technology architecture overview
 
