@@ -142,6 +142,10 @@ That is, we have completed the construction of a complete theoretical system of 
 
 ## Deliverables
 
+
+> 🎉 This project is one of the first round grant recipients of the Sui Foundation (the first one listed): https://sui.io/resources-sui/sui-foundation-round-1-awardees/ 🎉
+
+
 This is certainly an ambitious project, but it doesn't make too much sense to discuss longer-term plans; we started by setting two small milestones for the project.
 
 ### Milestone I
