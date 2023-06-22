@@ -1,5 +1,7 @@
 # dddappp：领域驱动的去中心化应用低代码开发平台
 
+![dddappp](dddappp_logo.png)
+
 [English](README.md) | 中文
 
 [ToC]
@@ -158,8 +160,6 @@ DDDML（领域驱动设计建模语言）迈出了这坚实的“一大步”。
 ## 我们的产品
 
 我们的低代码开发平台叫做 dddappp，它是  **Domain-Driven DAPP low-code Platform** 的缩写，意思是“领域驱动的去中心化应用低代码（开发）平台”。
-
-![dddappp](dddappp_logo.png)
 
 我们已经基于 Sui 和 Rooch 这两个知名的 Move 智能合约平台，实现了 MVP（最小可行产品）。
 

@@ -1,10 +1,12 @@
 # dddappp: A Domain-Driven DAPP low-code development Platform
 
+![dddappp](dddappp_logo.png)
+
 English | [中文](README_CN.md)
 
 [ToC]
 
-## Our vision
+## Our Vision
 
 Our goal is to create a **true** low-code development platform (LCDP) that allows developers to easily build highly complex decentralized applications (Dapps).
 
@@ -38,7 +40,7 @@ We believe (and it is also widely recognized in the industry) that a true low-co
 
 We believe that such a "true" low-code development platform has not yet appeared in the decentralized world. We have the confidence and ability to create it.
 
-## Our value
+## Our Value
 
 We firmly believe that low-code development platforms are the future trend of blockchain application development. They can enable developers to quickly and easily build high-quality Dapps without worrying about the underlying technical details. They can also attract more "traditional" application developers to enter the blockchain field, using their knowledge and experience accumulated in various industries and domains, to create more valuable and meaningful Dapps.
 
@@ -56,13 +58,13 @@ We especially want to emphasize the huge imagination space that can be raised by
 
 Traditional low-code development platforms have already proven their advantages in rapid development of traditional "enterprise applications", and we believe this will be the case in the Web3 era.
 
-## Current state of Web3 low-code development
+## Current State of Web3 Low-Code Development
 
-If we measure the traditional low-code development platforms for enterprise applications in the Web 2.0 era according to the above criteria for "true" low-code, we can see some relatively outstanding leaders, such as OutSystems, Mendix, Salesforce, etc.
+If we measure the traditional low-code development platforms for enterprise applications in the Web2 era according to the above criteria for "true" low-code, we can see some relatively outstanding leaders, such as OutSystems, Mendix, Salesforce, etc.
 
 ![Magic Quadrant for Traditional LCDPs](TraditionalLCDPsMagicQuadrant.png)
 
-Then, in the Web 3.0 era, are there any equally excellent Dapp low-code development platforms?
+Then, in the Web3 era, are there any equally excellent Dapp low-code development platforms?
 
 Unfortunately, according to the strict "true" low-code standards mentioned above, we have not yet seen the emergence of such a Dapp low-code development platform...
 
@@ -98,79 +100,92 @@ There is also the "expression language", although it may be complex to implement
 
 ---
 
-## Technology architecture overview
+## Our Technology
 
-"Model-driven development" is the core feature of low-code development platforms.
-
-As mentioned earlier, the traditional models used by low-code platforms for enterprise applications are relational and/or ER models; We choose the DDD([Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)) style domain models, which makes our platform so unique and powerful.
-
-### The key is the modeling paradigm
-
-The DDD domain models are OO(object-oriented) models in a relatively high level of abstraction.
-
-![Mappings Between Models](MappingsBetweenModels.jpeg)
-
-Mapping from the higher abstraction level DDD domain models to the lower abstraction level implementation object models(OO is the dominant paradigm for programming languages), relational models(the dominant paradigm for database models), etc. is relatively easy and can often be done by automated tools.
-
-Mapping low-level models to each other is relatively difficult and often requires developers to step in and even write a lot of implementation codes.
-Developers familiar with the ORM(Object-Relational Mapping) frameworks can easily understand this.
+Our low-code development platform's core feature is "model-driven development". Of course, it is also the core feature that any "qualified" low-code development platform should have.
 
 ### Domain models as the core
 
-The idea is that there should be a domain modeling language that can be used to accurately describe key concepts in the domain; the domain models described by this language can be used as the basis for communication across the application development team(both technical and domain experts) and should be conveniently mapped to the code implementation of the application.
+The key is the modeling paradigm!
 
-This language should be a DSL that can be adopted by visualization tools as well as easy for humans to read and write.
+Unlike traditional enterprise application low-code platforms that usually use relational models and/or ER models, our platform uses DDD([Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)) style domain models, which is the fundamental reason why our platform is so unique and powerful.
 
-With the domain models described by this DSL as the core, we make a toolchain to generate the implementation codes for various parts of applications from models and then run the applications on various technical infrastructures.
+DDD domain models are a kind of OO (object-oriented) models with a relatively high level of abstraction, which can be easily mapped to lower-level models such as programming language object models, relational models, etc. On the other hand, mapping low-level models to each other is relatively difficult and often requires developers to intervene or even write a lot of implementation code.
 
-![Domain Models As the Core](DomainModelsAsTheCore.png)
+![Mappings Between Models](MappingsBetweenModels.jpeg)
+
+To build domain models, we need a domain modeling language. This language must meet the following requirements:
+
+* It can accurately express the key concepts and rules in the domain.
+* The models built with it can serve as the basis for communication across the entire application development team (including technical staff and domain experts). This can greatly improve the efficiency and quality of communication.
+* It can easily map domain models to application code implementation, greatly reducing the workload and risk of coding errors.
+* It supports multiple programming languages and technology platforms.
+* It is a DSL (domain-specific language) that can be adopted by visualization tools as well as easy for humans to read and write.
+
+The question is, can we find such a language that meets the above requirements?
+
+Fortunately, we have found it. More precisely, we invented it.
+
 
 ### Domain-Driven Design Modeling Language(DDDML)
 
-The question is whether we can find such a language as described above?
-
-Fortunately we have found it - DDDML(Domain-Driven Design Modeling Language); more precisely, we invented it.
+DDDML (Domain-Driven Design Modeling Language) is a DDD-native DSL that we invented. It allows you to describe your domain model in a concise, clear, and natural way.
 
 Eric Evans, founder of Domain-Driven Design, has said that he has always believed that DSL is the next big step in the evolution of domain-driven design.
 
-DDDML takes this big solid step forward. You will see this in what follows.
+DDDML (Domain-Driven Design Modeling Language) takes this solid "big step" forward.
 
-## Who we are
+With DDDML-described domain models, we can build a toolchain that generates code for various parts of applications from models and then runs applications on various technical infrastructures.
 
-"Theoretically you are all right, but why can you do it?"
+![Domain Models As the Core](DomainModelsAsTheCore.png)
 
-Because, "using DDD-style domain models to drive development" is really the thing we've done in the Web 2.0 era!
+## Our Team
+
+> You have chosen a path that other Dapp low-code platforms dare not try... Although theoretically you are right, what makes you confident that you can do it?
+
+Because, "using DDD-style domain models to drive development" is something we have done in the Web2 era!
 
 ![E-R Model/Relational Model Driven Vs. Domain Model Driven](ERDrivenVsDDDModelDriven.png)
 
-Even when implementing a low-code platform for developing traditional enterprise applications, using DDD-style domain models to drive development is a very bold and innovative move. But the path is through, we have had a lot of valuable experience accumulated. We even published a thick monograph to share the lessons learned with developers.
+At that time, we were not satisfied with implementing a "traditional" low-code development platform. We wanted to use DDD-style domain models to drive the development of new types of enterprise applications (SaaS) and internet applications. This was a very bold and innovative attempt. But this path was feasible, and we had a lot of valuable experience accumulated. We even published a thick monograph to share our experience with developers.
 
-Here it is necessary to highlight the architect of our project: Jiefeng Yang. He has more than 20 years of software development experience, and is a well-deserved DDD expert, the creator of DDDML, and the author of the technical book "[Deep into DDD: Driving Complex Software Development by DSL](https://item.jd.com/12834017.html)". He is also one of the developers of, or has provided key technical support for, several important ecological fundamental projects on Starcoin, the first Move public blockchain(some ecological projects on Starcoin are developed by anonymous teams). 
+Our project architect is Jiefeng Yang. He has more than 20 years of software development experience, DDD expert, DDDML creator, and author of the technical book "[Deep into DDD: Driving Complex Software Development by DSL](https://item.jd.com/12834017.html)". 
 
-It is in the book "Deep into DDD" that we detail the design of DDDML, the native DSL for DDD, and its related development toolchain, and how to use them to solve various aches in complex software development processes. This well-received bestseller was published in April 2021 and reprinted in September of the same year.
+It is in the book "Deep into DDD" that we elaborate on the design of DDDML, the native DSL for DDD, and its related development toolchain, and how to use them to solve various pain points in complex software development processes. The book was published in April 2021 and reprinted in September of the same year, receiving wide acclaim.
 
 ![The Book "Deep into DDD"](TheBookDeepIntoDDD.png)
 
-That is, we have completed the construction of a complete theoretical system of key technologies that we have successfully put into practice; more than that, we have done a preliminary proof of concept on how to apply these experiences to the development of Dapps - as we will demonstrate in a demo system below.
+That is to say, as early as in the Web2 era, we had completed the construction of the key technology theoretical system of this low-code platform and put it into practice successfully.
 
+In addition, Jiefeng Yang is also one of the developers of, or has provided key technical support for, several important ecological foundation projects on Starcoin, the first Move public blockchain.
 
-## Deliverables
+## Our Product
 
+Our low-code development platform is called dddappp, which stands for **Domain-Driven DAPP low-code Platform**.
+
+We have implemented an MVP (minimum viable product) based on Sui and Rooch, two well-known Move smart contract platforms.
 
 > 🎉 This project is one of the first round grant recipients of the Sui Foundation (the first one listed): https://sui.io/resources-sui/sui-foundation-round-1-awardees/ 🎉
 
+This means that you can now use our dddappp CLI tool to develop decentralized applications based on Sui and Rooch!
 
-This is certainly an ambitious project, but it doesn't make too much sense to discuss longer-term plans; we started by setting two small milestones for the project.
+Just follow the instructions in the links below, and you can experience the powerful benefits of "model-driven"!
 
-### Milestone I
+* [Developing Sui Decentralized Applications using the dddappp Low-Code Tool](https://github.com/dddappp/A-Sui-Demo/blob/main/README.md)
+* [Developing Rooch Decentralized Applications using the dddappp Low-Code Tool](https://github.com/dddappp/A-Rooch-Demo/blob/main/README.md)
 
-We will create a command line tool or a set of tools. At a minimum, the tool will help developers generate on-chain Move contracts (the on-chain part of a Dapp), off-chain services (written in Java or Go), and even more from domain models, such as Client JavaScript SDKs, scaffolding codes of web front-end applications with user interfaces, etc.
+## Our Roadmap
 
-It is expected that this milestone can be reached by two persons working for three months after the project starts.
+This is a challenging and visionary project, and we will implement our vision in stages.
 
-### Milestone II
+### Phase I
 
-We will move the functionality of the command line tools created in Milestone I to the cloud, where developers can simply open their browsers and use them. We expect to provide a simple Web IDE for developers to write domain models, generate Dapp applications "with one click", write business logic codes, and deploy the applications to a test environment in the cloud.
+We need to develop a basic command line tool or a set of tools that can help developers generate on-chain Move contracts (the on-chain part of a Dapp) and off-chain services (written in Java) from domain models.
 
-It is expected that after reaching the first milestone, two persons working for three months can reach this second milestone.
+We have successfully completed the work of Phase I.
 
+### Phase II
+
+We will migrate the command line tools or toolset developed in Phase I to the cloud, and provide a simple and easy-to-use Cloud IDE for developers to write domain model code, generate and deploy Dapp applications with one click, and provide testing environment and debugging tools.
+
+[TBD]
