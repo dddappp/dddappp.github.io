@@ -4,8 +4,6 @@
 
 English | [中文](README_CN.md)
 
-[ToC]
-
 ## Our Vision
 
 Our goal is to create a **true** low-code development platform (LCDP) that allows developers to easily build highly complex decentralized applications (Dapps).

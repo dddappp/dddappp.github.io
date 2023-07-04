@@ -4,8 +4,6 @@
 
 [English](README.md) | 中文
 
-[ToC]
-
 ## 我们的愿景
 
 我们的目标是打造一个真正的低代码开发平台（Low-Code Development Platform，LCDP），让开发者能够轻松地构建高度复杂的去中心化应用（Dapp）。
