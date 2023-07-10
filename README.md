@@ -106,7 +106,7 @@ Our low-code development platform's core feature is "model-driven development". 
 
 The key is the modeling paradigm!
 
-Unlike traditional enterprise application low-code platforms that usually use relational models and/or ER models, our platform uses DDD([Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)) style domain models, which is the fundamental reason why our platform is so unique and powerful.
+Unlike traditional enterprise application low-code platforms that usually use relational models and/or ER models, our platform uses DDD ([Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)) style domain models, which is the fundamental reason why our platform is so unique and powerful.
 
 DDD domain models are a kind of OO (object-oriented) models with a relatively high level of abstraction, which can be easily mapped to lower-level models such as programming language object models, relational models, etc. On the other hand, mapping low-level models to each other is relatively difficult and often requires developers to intervene or even write a lot of implementation code.
 
@@ -125,7 +125,7 @@ The question is, can we find such a language that meets the above requirements?
 Fortunately, we have found it. More precisely, we invented it.
 
 
-### Domain-Driven Design Modeling Language(DDDML)
+### Domain-Driven Design Modeling Language (DDDML)
 
 DDDML (Domain-Driven Design Modeling Language) is a DDD-native DSL that we invented. It allows you to describe your domain model in a concise, clear, and natural way.
 
