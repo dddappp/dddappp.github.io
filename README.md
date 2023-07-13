@@ -173,7 +173,7 @@ Just follow the instructions in the links below, and you can experience the powe
 * [Developing Rooch Decentralized Applications using the dddappp Low-Code Tool](https://github.com/dddappp/A-Rooch-Demo/blob/main/README.md)
 * [Developing Aptos Decentralized Applications using the dddappp Low-Code Tool](https://github.com/dddappp/A-Aptos-Demo/blob/main/README.md). The generation of Move contracts is currently supported. Generation of off-chain services is under development.
 * [Developing a Blog Example on Sui](https://github.com/dddappp/sui-blog-example). It only requires 30 or so lines of code (all of which is a description of the domain model) to be written by the developer, and then generates a blog example that emulates [RoR Getting Started](https://guides.rubyonrails.org/getting_started.html) in one click, without requiring the developer to write a single line of other code.
-* [Developing a Blog Example on Rooch](https://github.com/rooch-network/rooch/blob/main/examples/blog_example/README.md). A Rooch version of blog sample.
+* [Developing a Blog Example on Rooch](https://github.com/rooch-network/rooch/blob/main/examples/blog/README.md). A Rooch version of blog sample.
 * [Developing a Blog Example on Aptos](https://github.com/dddappp/aptos-blog-example). A Aptos version of blog sample.
 
 ## Our Roadmap

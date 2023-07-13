@@ -171,7 +171,7 @@ DDDML（领域驱动设计建模语言）迈出了这坚实的“一大步”。
 * [使用 dddappp 低代码工具开发 Rooch 去中心化应用](https://github.com/dddappp/A-Rooch-Demo/blob/main/README_CN.md)
 * [使用 dddappp 低代码工具开发 Aptos 去中心化应用](https://github.com/dddappp/A-Aptos-Demo/blob/main/README.md)。可以生成链上合约；链下服务的生成待完成。
 * [在 Sui 上低代码开发一个 Blog 示例应用](https://github.com/dddappp/sui-blog-example)。开发者只需要写大约 30 行代码（这些代码都是领域模型的描述），然后一键生成一个仿 [RoR Getting Started](https://guides.rubyonrails.org/getting_started.html) 的 blog 示例应用，不需要编写一行（除了领域模型之外的其他）代码。
-* [在 Rooch 上低代码开发一个 Blog 示例应用](https://github.com/rooch-network/rooch/blob/main/examples/blog_example/README.md)。Blog 示例的 Rooch 版本。
+* [在 Rooch 上低代码开发一个 Blog 示例应用](https://github.com/rooch-network/rooch/blob/main/examples/blog/README.md)。Blog 示例的 Rooch 版本。
 * [在 Aptos 上低代码开发一个 Blog 示例应用](https://github.com/dddappp/aptos-blog-example)。Blog 示例的 Aptos 版本。
 
 ## 我们的路线图
