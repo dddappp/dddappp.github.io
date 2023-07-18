@@ -161,11 +161,11 @@ In addition, Jiefeng Yang is also one of the developers of, or has provided key 
 
 Our low-code development platform is called dddappp, which stands for **Domain-Driven DAPP low-code Platform**.
 
-We have implemented an MVP (minimum viable product) based on Sui and Rooch, two well-known Move smart contract platforms.
+We have implemented MVP (Minimum Viable Product) based on three well-known Move smart contract platforms: Sui,  Aptos and Rooch.
 
 > 🎉 This project is one of the first round grant recipients of the Sui Foundation (the first one listed): https://sui.io/resources-sui/sui-foundation-round-1-awardees/ 🎉
 
-This means that you can now use our dddappp CLI tool to develop decentralized applications based on Sui and Rooch!
+This means that you can now use our dddappp CLI tool to develop decentralized applications based on Sui, Aptos and Rooch!
 
 Just follow the instructions in the links below, and you can experience the powerful benefits of "model-driven"!
 

@@ -159,13 +159,13 @@ DDDML（领域驱动设计建模语言）迈出了这坚实的“一大步”。
 
 我们的低代码开发平台叫做 dddappp，它是  **Domain-Driven DAPP low-code Platform** 的缩写，意思是“领域驱动的去中心化应用低代码（开发）平台”。
 
-我们已经基于 Sui 和 Rooch 这两个知名的 Move 智能合约平台，实现了 MVP（最小可行产品）。
+我们已经基于 Sui、Rooch 以及 Aptos 这三个知名的 Move 智能合约平台，实现了 MVP（最小可行产品）。
 
 > 🎉 本项目是获得 Sui 基金会的第一轮 grant 的项目之一（列表中的第一个）：https://sui.io/resources-sui/sui-foundation-round-1-awardees/ 🎉
 
-这意味着，你现在就可以使用我们提供的 dddapp CLI 工具，来开发基于 Sui 和 Rooch 的去中心化应用！
+这意味着，你现在就可以使用我们提供的 dddapp CLI 工具，来开发基于 Sui、Rooch 以及 Aptos 的去中心化应用！
 
-只需按照下面两个链接的指引，你就可以体验“模型驱动”的强大威力！
+只需按照下面这些链接的指引，你就可以体验“模型驱动”的强大威力！
 
 * [使用 dddappp 低代码工具开发 Sui 去中心化应用](https://github.com/dddappp/A-Sui-Demo/blob/main/README_CN.md)
 * [使用 dddappp 低代码工具开发 Rooch 去中心化应用](https://github.com/dddappp/A-Rooch-Demo/blob/main/README_CN.md)
