@@ -8,7 +8,7 @@ English | [中文](README_CN.md)
 
 Our goal is to create a **true** low-code development platform (LCDP) that allows developers to easily build highly complex decentralized applications (Dapps).
 
-We believe that blockchain is a revolutionary technical infrastructure that can support innovative decentralized applications. We hope that through our low-code development platform, developers can fully leverage the advantages of blockchain without worrying about the underlying technical details.
+With our low-code development platform, we want to enable developers to take full advantage of the decentralized technology infrastructures without caring about the underlying technical details.
 
 Our platform adapts to both current needs and future possibilities. Developers are not limited by any specific programming language or blockchain platform, they only need to focus on implementing the "business logic". In this way, whether it is complex "traditional" enterprise software or Web2 internet applications, they can easily transform into decentralized Web3 applications.
 
