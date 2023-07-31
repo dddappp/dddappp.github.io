@@ -155,6 +155,8 @@ DDDML（领域驱动设计建模语言）迈出了这坚实的“一大步”。
 
 除此之外，杨捷锋还是第一个 Move 公链 Starcoin 上几个重要的生态基础项目的开发者，或者为它们提供了关键技术支持。
 
+开发者都知道 dictionary / hash table 是应用开发时常常会用到的一种数据结构（在 Solidity 中类似的数据结构叫做 `mapping`）。在 Move 的 stdlib 以及 Starcoin Framework 还没有 `Table` 的时候，我们在开发 Starcoin 应用时需要使用一些方法来“绕过”这个限制，比如可以采用链下 SMT（稀疏梅克尔树）+ 链上 Root 哈希的解决方案。这样的方案在编程实现上可能相当繁琐，但是使用低代码的开发方式（见[这个链接](./a-starcoin-demo-app-CN.md)中的探讨），我们可以向应用开发者屏蔽很大一部分（因为技术基础设施的限制带来的）复杂性。
+
 ## 我们的产品
 
 我们的低代码开发平台叫做 dddappp，它是  **Domain-Driven DAPP low-code Platform** 的缩写，意思是“领域驱动的去中心化应用低代码（开发）平台”。

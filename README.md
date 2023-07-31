@@ -157,6 +157,8 @@ That is to say, as early as in the Web2 era, we had completed the construction o
 
 In addition, Jiefeng Yang is also one of the developers of, or has provided key technical support for, several important ecological foundation projects on Starcoin, the first Move public blockchain.
 
+Developers all know that a dictionary / hash table is a data structure that is often used in application development (in Solidity a similar data structure is called `mapping`). When Move's stdlib and Starcoin Framework didn't have `Table`, we needed to use some methods to "bypass" this limitation when developing Starcoin applications. For example, we can use the off-chain SMT (Sparse Merkel Tree) + on-chain root hash solution. Such a solution can be quite tedious to implement programmatically, but using a low-code development approach (see [this link](. /a-starcoin-demo-app.md) for an exploration), we can shield a large portion of the complexity (brought by limitations of the technology infrastructure) from app developers.
+
 ## Our Product
 
 Our low-code development platform is called dddappp, which stands for **Domain-Driven DAPP low-code Platform**.
