@@ -28,7 +28,7 @@ We believe (and it is also widely recognized in the industry) that a true low-co
 
 * **Model driven** development. This means that developers can use a "domain model" that is closer to "business" rather than "technology" to describe the application they want to build. This can greatly reduce communication costs and understanding difficulties, and improve collaboration efficiency.
 
-* **Visual Development**. This means that developers can use some visual modeling tools to create and modify domain models without writing complex code. If necessary, they can also directly edit the plain text files corresponding to the domain models, which means that these files need to follow a DSL (domain-specific language) specification.
+* **Visual Development**. This means that developers can use some visual modeling tools to create and modify domain models without writing complex code. Also, we believe that domain models should be able to be saved as human-readable plain text files. Developers can edit them directly if they feel the need to do so. That is, these files need to follow a DSL (domain-specific language) specification.
 
 * Support the use of **expression languages**. This means that developers can use an expression language that is simpler and easier to write business logic than general-purpose programming languages. This language should be functional and declarative, i.e., only expressing "what is wanted" rather than "how it is done".
 
