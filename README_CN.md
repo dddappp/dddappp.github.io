@@ -192,3 +192,9 @@ DDDML（领域驱动设计建模语言）迈出了这坚实的“一大步”。
 
 【TBD】
 
+---
+
+GitHub: https://github.com/dddappp
+
+Email: yangjiefeng AT gmail.com
+

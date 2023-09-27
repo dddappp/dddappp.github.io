@@ -193,3 +193,10 @@ We have successfully completed the work of Phase I.
 We will migrate the command line tools or toolset developed in Phase I to the cloud, and provide a simple and easy-to-use Cloud IDE for developers to write domain model code, generate and deploy Dapp applications with one click, and provide testing environment and debugging tools.
 
 [TBD]
+
+---
+
+GitHub: https://github.com/dddappp
+
+Email: yangjiefeng AT gmail.com
+
