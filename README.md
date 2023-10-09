@@ -163,7 +163,7 @@ Developers all know that a dictionary / hash table is a data structure that is o
 
 Our low-code development platform is called dddappp, which stands for **Domain-Driven DAPP low-code Platform**.
 
-We have implemented MVP (Minimum Viable Product) based on three well-known Move smart contract platforms: Sui,  Aptos and Rooch.
+We have implemented MVPs (Minimum Viable Products) based on three well-known Move smart contract platforms: Sui,  Aptos and Rooch.
 
 > 🎉 This project is one of the first round grant recipients of the Sui Foundation (the first one listed): https://sui.io/resources-sui/sui-foundation-round-1-awardees/ 🎉
 
